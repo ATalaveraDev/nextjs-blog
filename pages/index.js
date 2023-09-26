@@ -8,7 +8,7 @@ import Date from '../components/date';
 import { getSortedPostsData } from '../lib/posts';
 
 const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Angel\'s Next.js Sample Website';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
